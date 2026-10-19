@@ -39,13 +39,19 @@ int main() {
 
     } while (res != 1);
 
+
+    // inizializiamo un contatore per contare tutte le volte che viene moltiplicato il numero per se stesso
     int i = 0;
+
+    // azzeriamo la variabile res a zero per poterla riusare e non allocare altro spazio inutilmente
     res = 0;
+    // sommiamo a res la variabile x per un numero y di volte. 
     while(i<y) {
         res = res + x;
         i++;
     }
 
+    // stampiamo il risultato e chiudiamo il programma
     printf("%s%d\n", "Il totale della moltiplicazione e': ", res);
 
     return 0;
