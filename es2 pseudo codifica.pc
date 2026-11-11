@@ -1,0 +1,18 @@
+es2 pseudo codifica
+
+x = 0
+y = 0
+
+res = 0
+
+x = input("primo fattore: ")
+y = input("secondo fattore: ")
+
+i = 0
+
+MENTRE(i<y)
+    res = res + x
+    i++
+FINE
+
+STAMPA("%s%d\n", "Il totale della moltiplicazione e': ", res)
